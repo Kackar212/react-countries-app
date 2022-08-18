@@ -17,11 +17,7 @@ function Controls({ setFilterBy, filterBy }) {
 				<SelectOption value="ame">America</SelectOption>
 				<SelectOption>Asia</SelectOption>
 				<SelectOption>Europe</SelectOption>
-				<SelectOption value="oceania">
-					<div style={{ color: 'blue' }}>
-						<span style={{ background: 'red' }}>Oceania</span>
-					</div>
-				</SelectOption>
+				<SelectOption>Oceania</SelectOption>
 			</CustomSelect>
 		</Wrapper>
 	)
